@@ -25,7 +25,7 @@ public class Main {
         Block block2 = new Block(genesisBlock.getBlockHash(), block2Transactions);
 
         String[] block3Transactions = {
-                "Artin sent you 25 Bitcoins to Bugatti",
+                "Artin sent 25 Bitcoins to Bugatti",
         };
 
         Block block3 = new Block(block2.getBlockHash(), block3Transactions);
